@@ -20,3 +20,5 @@ def won?(board)
       board[win_combination[0]] != " " && board[win_combination[0]] == board[win_combination[1]] && board[win_combination[1]] == board[win_combination[2]]
   end
 end
+
+def full?(board)
