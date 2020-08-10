@@ -41,6 +41,6 @@ end
 
 def winner(board)
   while won?(board) =! false
-    return board[]
+    return won?(board)
   end
 end
