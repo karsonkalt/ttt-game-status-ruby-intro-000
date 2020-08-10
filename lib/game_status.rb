@@ -16,11 +16,7 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  
-  if position_1 == token && position_2 == token && position_3 == token
-    return win_combination # return the win_combination indexes that won.
-  else
-    false
+  board.select do |position|
+    position == "X"
   end
-
 end
