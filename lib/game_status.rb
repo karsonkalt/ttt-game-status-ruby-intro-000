@@ -40,7 +40,7 @@ def over?(board)
 end
 
 def winner(board)
-  while won?(board)
-
+  while won?(board) =! false
+    return board[]
   end
 end
