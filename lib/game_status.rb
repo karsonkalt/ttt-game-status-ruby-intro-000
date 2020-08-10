@@ -39,8 +39,3 @@ def over?(board)
   end
 end
 
-def winner(board)
-  while won?(board) =! false
-    return won?(board)
-  end
-end
