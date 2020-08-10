@@ -17,6 +17,7 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   board.select do |position|
-    position == "X"
+    position == token
   end
+
 end
