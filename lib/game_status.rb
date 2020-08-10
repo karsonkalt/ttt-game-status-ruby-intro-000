@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6] # diagonal bottom left to top right
 ]
 
-def won?
+def won?(board)
     WIN_COMBINATIONS.find do |win_combination|
       board[win_combination[0]] == board[win_combination[1]] && board[win_combination[1]] == win_combination[combo[2]]
     end
