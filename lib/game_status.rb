@@ -16,8 +16,6 @@ WIN_COMBINATIONS = [
 ]
 
 def won?(board)
-  board.select do |position|
-    position == token
-  end
-
+  WIN_COMBINATIONS.each
+  
 end
